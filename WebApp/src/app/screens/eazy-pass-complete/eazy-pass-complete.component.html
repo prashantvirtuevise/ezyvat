@@ -1,0 +1,52 @@
+<div class="d-flex flex-column">
+     <div class="mt-2 mb-3 text-center d-flex flex-column justify-content-center">
+       <h1 class="font-xl" *ngIf="!status">{{"EazyPass4.HEADER1" | translate}} {{memberName}},</h1>
+        <h1 class="font-xl" *ngIf="statusUpdate">{{"EazyPass4.HEADER" | translate}} {{memberName}},</h1> 
+       <h3 class="font-subtitle" *ngIf="!status">This is your <i>Eazy </i>Pass</h3> 
+       <h1 class="font-subtitle text-center" *ngIf="status" >
+        Manage Your <i>Eazy </i><strong>Pass</strong>
+      </h1>
+    </div>
+   
+     
+   <div class="mt-5 passport d-flex flex-column"  id="container">
+     <img src="../../../assets/icons/icons-pass.png" class="pass"> 
+       <div class="d-flex flex-row contentPass">
+        <div class="imgPass">
+            <img src="../../../assets/icons/profile_image.png" class="profile">
+        </div>
+       <div class="details font-regular">
+         {{model?.FirstName}} {{model?.LastName}}
+          <br>
+          {{model?.PassportNumber}}
+          <br>
+          {{model?.Nationality}} 
+       </div>
+    </div>
+      <div class="bottomPass">
+        <div class="mrz">
+            <img src="../../assets/elements/elements-lines-pass.png">
+        </div>
+      </div>
+   </div>
+
+ 
+    <div class="mt-5 mb-3 text-center" *ngIf="!status">
+     <h5 class="font-regular-large">Show your <i>Eazy </i>Pass to the cashier before you pay</h5>
+   </div>
+ 
+  <div class="mt-3 mb-2 text-center" *ngIf="status">
+    <h5 class="font-regular-large">This is your current <i>Eazy </i><strong>Pass</strong></h5>
+  </div>
+  <div class="mt-1 mb-1 text-center" *ngIf="status">
+    <p class="font-red text-center">    
+      {{"EazyPass1.TEXT2" | translate}}
+    </p>
+  </div> 
+ 
+
+  <div class="text-center mt-3 mb-3">
+    <a class="mt-3" routerLink="/{{nextPage}}/{{status}}"><button type="button" class="btn btn-primary">  {{"EazyPass1.BUTTON" | translate}}</button></a>
+</div>
+
+</div>

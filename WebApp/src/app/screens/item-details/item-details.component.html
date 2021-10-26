@@ -1,0 +1,35 @@
+<div class="itemDetails">
+        <div class="d-flex flex-column justify-content-between details">
+            <div class="font-regular-medium ItemNumber">
+              {{"InvoiceItems.ITEM" | translate}} #{{ItemNumber}}
+           </div>
+           <mat-form-field appearance="none">
+              <span class="font-lightBlue-small">{{"InvoiceItems.SERIAL" | translate}}</span>
+              <input class="font-regular-medium" [value]="item?.SerialNumber" matInput  name="Serial"  readonly />
+            </mat-form-field>
+            <hr class="hr">
+        
+            <mat-form-field appearance="none">
+              <label class="font-lightBlue-small">{{"InvoiceItems.DESCRIPTION" | translate}}</label>
+              <input class="font-regular-medium" [value]="item?.Description" matInput placeholder="Vat" name="Description"  readonly />
+            </mat-form-field>
+            <hr class="hr">
+            <mat-form-field appearance="none">
+              <label class="font-lightBlue-small">{{"InvoiceItems.PRICE" | translate}}</label>
+              <input class="font-regular-medium" [value]="item?.Price" matInput  name="Price"  readonly />
+            </mat-form-field>
+            <hr class="hr">
+        
+            <mat-form-field appearance="none">
+              <label class="font-lightBlue-small">{{"InvoiceItems.QUANTITY" | translate}}</label>
+              <input class="font-regular-medium" matInput [value]="item?.Quantity" name="Quantity"  readonly />
+            </mat-form-field>
+            <hr class="hr">
+        
+          <mat-form-field appearance="none">
+            <label class="font-lightBlue-small">{{"InvoiceItems.TOTAL" | translate}}</label>
+            <input class="font-regular-medium" matInput [value]="item?.Total" name="Total"  readonly />
+          </mat-form-field>
+          <hr class="hr">
+   </div>
+</div>

@@ -1,0 +1,34 @@
+<form class="pt-3 p-3">
+
+  <div class="text-center">
+    <img src="../../assets/elements/elements-wizard-2.png" *ngIf="!status">
+    <h3 class="mt-2 font-subtitle-bold" *ngIf="status">
+      {{"Contact.HEADER" | translate}}
+    </h3>
+    <p class="mt-2 p-4 font-regular-large text-center">
+      {{"Contact.TEXT1" | translate}}
+    </p>
+  </div>
+
+  <mat-form-field class="form-group" appearance="standard">
+    <label class="font-lightBlue">{{"Contact.EMAIL" | translate}}</label>
+    <input matInput type="email"  pattern="[a-zA-Z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" name="email" #email="ngModel"
+      [(ngModel)]="model.Email" placeholder="Ex. john@example.com" required />
+      <mat-error>
+      Valid email is <strong>required</strong>
+      </mat-error>
+  </mat-form-field>
+
+  <mat-form-field class="pt-1">
+    <label class="font-lightBlue "> {{"Contact.MOBILE" | translate}}</label>
+    <input matInput type="number"  pattern=".{8,}" name="mobileNumber" #mobileNumber="ngModel" [(ngModel)]="model.MobileNumber"
+      required />
+      <mat-error>
+        Valid number is <strong>required</strong>
+        </mat-error>
+  </mat-form-field>
+
+</form>
+<div class="text-center mt-5 pt-3" (click)="updateName()" >
+  <a class="mt-5"><button type="button" class="btn btn-primary" [disabled]="email.invalid"> {{"Contact.BUTTON1" | translate}}</button></a>
+</div>

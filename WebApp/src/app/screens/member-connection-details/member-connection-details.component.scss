@@ -1,0 +1,45 @@
+
+  mat-form-field-underline {
+    display: none;
+  }
+  
+  mat-form-field{
+    width: 100%;
+  }
+
+  div.mf{
+    height:100%;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+   /*  border: solid 1px #18206c; */
+  }
+  
+  
+  
+  button {
+    width:90%;
+    background-color: #18206c !important;
+    color: white; 
+    border: solid 1px #18206c;
+    border-radius: 10px; 
+    margin-bottom: auto;
+    font-family: Barlow-Regular;
+    font-size: 14px;
+    font-weight: 600;
+
+    } 
+        
+
+  
+      ::ng-deep .mat-form-field {
+        .mat-input-element {
+            color:#011154;;
+            font-weight: 500;
+        }
+      
+        .mat-form-field-underline {
+            background-color:#011154;
+        }
+      
+    }

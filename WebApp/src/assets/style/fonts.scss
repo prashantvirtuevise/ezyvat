@@ -1,0 +1,254 @@
+@font-face {
+  font-family: "Barlow-Regular";
+  src:url("/assets/fonts/Barlow/Barlow-Regular.ttf") format("truetype");
+    /* Safari, Android, iOS */
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Barlow-Light";
+  src:url("/assets/fonts/Barlow/Barlow-Light.ttf") format("truetype");
+  /* Safari, Android, iOS */
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Barlow-Bold";
+  src:
+    url("/assets/fonts/Barlow/Barlow-Bold.ttf") format("truetype");
+  /* Safari, Android, iOS */
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Barlow-SemiBold";
+  src:
+    url("/assets/fonts/Barlow/Barlow-SemiBold.ttf") format("truetype");
+  /* Safari, Android, iOS */
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Barlow-Medium";
+  src:
+    url("/assets/fonts/Barlow/Barlow-Medium.ttf") format("truetype");
+  /* Safari, Android, iOS */
+  font-weight: normal;
+  font-style: normal;
+}
+
+.font-light {
+  font-family: Barlow-Light;
+  color: #011154;
+}
+
+.font-regular {
+  font-family: Barlow-Regular;
+  color: #011154;
+}
+.font-regular-small {
+  font-family: Barlow-Regular;
+  color: #011154;
+  font-size: 13px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+}
+.font-regular-medium {
+  font-family: Barlow-Regular;
+  color: #011154;
+  font-size: 16px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+}
+.font-regular-medium-no-weight {
+  font-family: Barlow-Regular;
+  color: #011154;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+}
+.font-regular-large-bold {
+  font-family: Barlow-Regular;
+  color: #011154;
+  font-size: 20px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+}
+.font-regular-large {
+  font-family: Barlow-Regular;
+  color: #011154;
+  font-size: 20px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+}
+.font-lightBlue
+{
+  font-family: Barlow-Regular;
+  color: #4c6cac;
+}
+
+
+.font-lightBlue-small
+{
+  font-family: Barlow-Regular;
+  color: #4c6cac;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+}
+
+
+.font-green {
+  font-family: Barlow-Regular;
+  color:#53b35e;
+  font-size: 24px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: italic;
+  line-height: normal;
+  letter-spacing: normal;
+}
+.font-green-small {
+  font-family: Barlow-Regular;
+  color:#53b35e;
+  font-size: 13px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+}
+.font-red-small {
+  font-family: Barlow-Regular;
+  color: #f25151;
+  font-size: 13px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+}
+.font-red{
+  font-family:Barlow-Regular;
+  font-size: 20px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #f25151;
+}
+
+.font-semibold {
+  font-family: Barlow-Semibold;
+  color: #011154;
+}
+
+.font-bold {
+  font-family: Barlow-Bold;
+  color: #011154;
+}
+
+.font-medium {
+  font-family: Barlow-Medium;
+  color: #3562fe;
+}
+
+.font-link{
+   color: #3562fe !important;
+}
+.font-link-bold
+{
+  font-family: Barlow-Regular;
+  color: #3562fe;
+  font-size: 16px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+}
+.font-link-small{
+  font-family: Barlow-Regular;
+  color: #3562fe;
+  font-size: 12px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height:normal;
+  letter-spacing: normal;
+}
+.font-link-small-bold{
+  font-family: Barlow-Regular;
+   color: #4c6cac;
+  font-size: 12px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height:normal;
+  letter-spacing: normal;
+ 
+}
+.font-title{
+  font-family: Barlow-Regular;
+  font-size: 30px;
+  color: #011154;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+}
+
+.font-subtitle{
+  font-family: Barlow-Regular;
+  font-size: 24px;
+  color: #011154;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+
+}
+
+.font-subtitle-bold{
+  font-family: Barlow-Regular;
+  font-size: 24px;
+  font-weight: bold;
+  color: #011154;
+}
+
+.font-xl {
+  font-family: Barlow-Regular;
+  font-size: 36px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #011154;
+}
+

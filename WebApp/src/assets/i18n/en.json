@@ -1,0 +1,259 @@
+{
+    "StickyMenu": {
+        "HOME": "Home",
+        "PURCHASES": "Purchases",
+        "SHOPS": "Shop VAT Free",
+        "PROFILE": "Profile"
+    },
+    "Home": {
+        "HELLO": "Hello",
+        "GREETING": "How can we help you?",
+        "PURCHASES": "Show my purchases",
+        "SHOP": "Find a VAT free shop",
+        "LEARN": "Learn more about VAT refund"
+    },
+    "Vat": {
+        "INFO": "VAT Refund Infomration"
+    },
+    "Languages": {
+        "ENG": "English",
+        "FRA": "Français"
+    },
+    "Menu": {
+        "HEADER1": "VAT free inforamtion",
+        "ITEM11": "Get the maximum refund",
+        "HEADER2": "Support",
+        "ITEM21": "Privacy policy",
+        "ITEM22": "Terms of use",
+        "ITEM23": "Contact us"
+    },
+    "Shop": {
+        "Search": "Find a shop by name or category…"
+    },
+    "ShopPopUp": {
+        "CALL": "Call",
+        "NAVIGATE": "Navigate",
+        "MAP": "View on map"
+    },
+    "Profile": {
+        "GREETING1": "Hi",
+        "GREETING2": "What would you like to do?",
+        "ITEM1": "Manage my EazyPass",
+        "ITEM2": "Edit my travelling preferences",
+        "ITEM3": "Edit my contact details",
+        "ITEM4": "Edit my payment details"
+    },
+    "EazyPass1": {
+        "HEADER": "Manage Your EazyPass",
+        "TEXT1": "This is your current EazyPass",
+        "TEXT2": "If you change it previous purchases will no longer be available for you",
+        "BUTTON": "Continue"
+    },
+    "EazyPass2": {
+        "HEADER": "Manage Your EazyPass",
+        "TEXT1": "Hold your passport straight, place it in the middle of the screen, and take a clear picture",
+        "TEXT2": "If you change it previous purchases will no longer be available for you",
+        "TEXT3": "Please wait while we read your passport…",
+        "BUTTON1": "Open camera",
+        "BUTTON2": "Take a picture"
+    },
+    "PassportPopUpError": {
+        "HEADER": "Sorry,",
+        "TEXT1": "We could not read your passport.",
+        "TEXT2": "Please try again by either clean your camera or hold your passport steadily",
+        "BUTTON1": "Try again"
+    },
+    "EazyPass3": {
+        "HEADER": "Manage Your EazyPass",
+        "TEXT1": "Passport read successfully!",
+        "TEXT2": "Please verify your details below",
+        "FIRST_NAME": "First Name",
+        "LAST_NAME": "Last Name",
+        "NATIONALITY": "Nationality",
+        "PASSPORT_NO": "Passport Number",
+        "DATE_OF_BIRTH": "Date of Birth",
+        "EXPIRATION_DATE": "Expiration Date",
+        "DATE_ISSUED": "Date of issue",
+        "BUTTON1": "Continue"
+    },
+    "EazyPass4": {
+        "HEADER": "Hi",
+        "HEADER1": "Welcome",
+        "TEXT1": "This is your new EazyPass",
+        "TEXT2": "Show your EazyPass to the cashier before you pay",
+        "BUTTON1": "Continue"
+    },
+    "Contact": {
+        "HEADER": "Contact Information",
+        "TEXT1": "Let us know how we can reach you",
+        "EMAIL": "Email",
+        "MOBILE": "Mobile Number",
+        "BUTTON1": "Continue"
+    },
+    "Travel": {
+        "HEADER": "Travelling Preferences",
+        "TEXT1": "Tell us more about your trip",
+        "TEXT2": "We will send you special offers for",
+        "TEXT3": "VAT free shopping according to your preferences",
+        "TIME": "I am here until",
+        "PURPOSE": "I am here for",
+        "AREA": "I will stay on",
+        "LOCATION": "Which cities or nearby?",
+        "BUY": "What are you most likely to buy?",
+        "OFFERS": "Yes, send me special offers",
+        "BUTTON1": "Continue",
+        "BUTTON2":"Save"
+    },
+    "PaymentDetails": {
+        "HEADER": "Payment Details",
+        "ACTIOTEXT1": "Add new"
+    },
+    "AddPayment": {
+        "HEADER": "Add Payment Details",
+        "TYPE": "Type",
+        "CARD": "Credit Card",
+        "CARD_NO": "Credit Card Number",
+        "EXPIRY": "Expiry Date (MM/YY)",
+        "CVV": "CVV",
+        "BUTTON1": "Continue",
+        "BUTTON2": "Save"
+
+    },
+    "CCPopUpOK": {
+        "HEADER": "Credit card approved!",
+        "TEXT1": "Click Continue to view your current purchases and VAT refund",
+        "BUTTON1": "Continue"
+    },
+    "CCPopUpError": {
+        "HEADER": "Sorry,",
+        "TEXT1": "Your credit card is not approved.",
+        "TEXT2": "Please enter the details or try with a different credit card.",
+        "BUTTON1": "Try again"
+    },
+    "SignUp1": {
+        "HEADER": "Welcome to Eazyvat!",
+        "TEXT1": "In order to see your purchases and VAT refund confirmation you must first sign up",
+        "TEXT2": "Signing up is Eazy!",
+        "TEXT3": "Take a picture of your passport",
+        "TEXT4": "Complete contact information",
+        "TEXT5": "Update travelling preferences",
+        "BUTTON1": "Let's start"
+    },
+    "SignUp2": {
+        "TEXT1": "Hold your passport straight, place it in the middle of the screen, and take a clear picture",
+        "TEXT2": "Please wait while we read your passport…",
+        "BUTTON1": "Open camera",
+        "BUTTON2": "Take a picture"
+    },
+    "SignUp3": {
+        "TEXT1": "Passport read successfully!",
+        "TEXT2": "Please verify your details below",
+        "FIRST_NAME": "First Name",
+        "LAST_NAME": "Last Name",
+        "NATIONALITY": "Nationality",
+        "PASSPORT_NO": "Passport Number",
+        "DATE_OF_BIRTH": "Date of Birth",
+        "EXPIRATION_DATE": "Expiration Date",
+        "ISSUED_IN": "Issued In",
+        "BUTTON1": "Continue"
+    },
+    "SignUp4": {
+        "HEADER": "Let us know how we can reach you",
+        "EMAIL": "Email",
+        "MOBILE": "Mobile Number",
+        "BUTTON1": "Continue"
+    },
+    "SignUp5": {
+        "TEXT1": "Tell us more about your trip",
+        "TEXT2": "We will send you special offers for VAT free shopping according to your preferences",
+        "TIME": "I am here until",
+        "PURPOSE": "I am here for",
+        "AREA": "I will stay on",
+        "LOCATION": "Which cities or nearby?",
+        "BUY": "What are you most likely to buy?",
+        "OFFERS": "Yes, send me special offers",
+        "BUTTON1": "Continue"
+    },
+    "SignUp6": {
+        "HEADER": "It’s faster, safer and Eazier!",
+        "TEXT1": "Add your credit card to receive your VAT refund directly to your credit card",
+        "TYPE": "Type",
+        "CARD": "Credit Card",
+        "CARD_NO": "Credit Card Number",
+        "EXPIRY": "Expiry Date (MM/YY)",
+        "CVV": "CVV",
+        "BUTTON1": "Save"
+    },
+    "SignUp7": {
+        "FIRST_NAME": "First Name",
+        "LAST_NAME": "Last Name",
+        "NATIONALITY": "Nationality",
+        "PASSPORT_NO": "Passport Number",
+        "DATE_OF_BIRTH": "Date of Birth",
+        "EXPIRATION_DATE": "Expiration Date",
+        "CONTINUE": "Continue",
+        "REACH": "How can we reach you?'",
+        "EMAIL": "Email",
+        "MOBILE": "Mobile",
+        "WELCOME": "Welcome",
+        "WELCOME_TEXT": "Easyvat is all you need to get the maximum VAT refund during your trip."
+    },
+    "Purchases": {
+        "HEADER": "Purchases",
+        "TOTAL": "Total",
+        "VAT_RECLAIM": "Estimated VAT Refund",
+        "CURRENCY_CODE": "ILS",
+        "CONTINUE": "Continue"
+    },
+    "PurchasesPopUp": {
+        "HEADER": "Oops...",
+        "TEXT1": "Looks like there aren’t any registered purchases for you.",
+        "TEXT2": "If you believe there should be, please contact us at:"
+    },
+    "VatExplanation": {
+        "TEXT1": "The amount of VAT refund depends on the refund fees.",
+        "TEXT2": "Click here for more information."
+    },
+    "Invoice": {
+        "INVOICE_NO": "Invoice No.",
+        "VIEW_CONF": "View Confirmation",
+        "DATE": "Date",
+        "SHOP_NAME": "Shop Name",
+        "SHOP_ADDRESS": "Address",
+        "SUM": "Sum",
+        "REF": "Reference No.",
+        "VAT": "VAT Reclaim",
+        "IMAGE": "Invoice Images",
+        "ADD": "Add Invoice"
+    },
+    "InvoiceItems": {
+        "INVOICE_NO": "Invoice No.",
+        "ITEM": "Item",
+        "SERIAL": "Serial",
+        "DESCRIPTION": "Description",
+        "PRICE": "Price",
+        "QUANTITY": "Quantity",
+        "TOTAL": "Total"
+    },
+    "NoRefund": {
+        "HEADER": "No VAT Refund",
+        "TEXT1": "We’re sorry, this purchase does not entitle you with a VAT refund.",
+        "TEXT2": "Reason:"
+    },
+    "YesRefund": {
+        "HEADER": "VAT Refund Confirmation"
+    },
+    "AddInvoice": {
+        "HEADER": "Add Invoice",
+        "ActionText": "Delete Invoice",
+        "Button1": "Take a picture",
+        "Button2": "Save"
+    },
+    "Store": {
+        "HEADER": "Top-shop",
+        "Text1": "Dizngof 2, Tel-Aviv",
+        "Button1": "Call",
+        "Button2": "Navigation",
+        "Button3": "View On map"
+    }
+}

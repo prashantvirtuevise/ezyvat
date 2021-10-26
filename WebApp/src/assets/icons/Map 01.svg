@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="38px" height="38px" viewBox="0 0 38 38" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Icons/Map 01</title>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Elements/City-or-store-search" transform="translate(-4.000000, -4.000000)">
+            <g id="Group" transform="translate(4.000000, 4.000000)">
+                <circle id="Oval" fill="#18206C" cx="19" cy="19" r="19"></circle>
+                <g transform="translate(7.000000, 5.000000)" id="Icons/Map">
+                    <rect id="Rectangle" fill-opacity="0" fill="#ECECEC" x="0" y="0" width="23" height="27"></rect>
+                    <path d="M12,3 C16.418278,3 20,6.72163302 20,11.3125 C20,14.373078 17.3333333,18.6022447 12,24 C6.66666667,18.6022447 4,14.373078 4,11.3125 C4,6.72163302 7.581722,3 12,3 Z M12,6.5 C9.44204958,6.5 7.36842105,8.65462964 7.36842105,11.3125 C7.36842105,13.9703704 9.44204958,16.125 12,16.125 C14.5579504,16.125 16.6315789,13.9703704 16.6315789,11.3125 C16.6315789,8.65462964 14.5579504,6.5 12,6.5 Z" id="Combined-Shape" stroke="#FFFFFF" stroke-width="1.4784" fill="#FFFFFF"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
