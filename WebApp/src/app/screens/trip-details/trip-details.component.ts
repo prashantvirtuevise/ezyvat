@@ -53,8 +53,8 @@ export class TripDetailsComponent implements OnInit {
         this.cities = cities;
         this.allInterest = interest;
         this.visitPurpose = purpose;
-      });
-      await this.memberService.getMemberVisitInfo(memberId).then((data) => {
+     
+        this.memberService.getMemberVisitInfo(memberId).then((data) => {
         if (data) {
           this.model.EndDate = data.EndDate;
           this.model.InterestId = data.InterestId;
@@ -62,8 +62,9 @@ export class TripDetailsComponent implements OnInit {
           this.model.AreaId = data.AreaId;
           this.OnAreaChange(data.AreaId);
           this.model.CityId = data.CityId;
+          this.isDisabled = false;
         }
-      });
+      }); });
     } catch (error) {
       console.error(error);
     }
@@ -125,7 +126,7 @@ export class TripDetailsComponent implements OnInit {
   }
   async updateTripDetails() {
     //goToService
-    await this.memberService.updateVisitDetails(this.model).then((data) => {debugger
+    await this.memberService.updateVisitDetails(this.model).then((data) => {
       if (data) {
         this.router.navigateByUrl("/linksOptions");
       }

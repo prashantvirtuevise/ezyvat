@@ -32,9 +32,9 @@ export class PurchaseService {
     return this.http.get<any>(this.baseApiUrl + "/PurchaseSummary?memberId=" + memId);
   }
 
-   getPurchasesSummaryById(id): Observable<any> {
+   getPurchasesSummaryById(id): Promise<any> {
     id='4571C523-6870-45F7-A811-3368A430D4FC';
-    return this.http.get<any>(this.baseApiUrl + "/PurchaseSummaryById?purchaseId=" + id);
+    return this.http.get(this.baseApiUrl + "/PurchaseSummaryById?purchaseId=" + id).toPromise();
   }
 
   getCurrentPurchases(): Promise<ICurrentPurchase> {

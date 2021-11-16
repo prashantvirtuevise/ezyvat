@@ -68,8 +68,9 @@ export class TopMenuComponent implements OnInit {
   navigate() {
     
     let page = window.location.href.split("/");
-    let component = page[4];
-    let status = page[5];
+    let temp = page[3].split("?")
+    let component = temp[0];
+    let status = page[4];
     if(status)
     {
      status = JSON.parse(status); 

@@ -3,6 +3,7 @@ import { PurchaseService } from 'src/app/services/purchase.service';
 import { ActivatedRoute, Router } from '@angular/router';
 import { Component, OnInit } from '@angular/core';
 import { SpinnerVisibilityService } from 'ng-http-loader';
+import { FormGroup } from '@angular/forms';
 
 @Component({
   selector: 'app-purchases-details',
@@ -13,21 +14,27 @@ export class PurchasesDetailsComponent implements OnInit {
   isShowInvoiceImg: boolean = true;
   isShowStatusApprove: boolean = true;
   isShowStatusNoRefund: boolean = true;
-  purchaseData: any;
+  purchaseData: any = {
+    ShopName: '',
+    invoiceNumber: '',
+    datePurchase: '',
+    shopName: '',
+    shopAdress: ''
+  };
+  myForm= new FormGroup({
 
+  })
   public model: PurchaseDetails = new PurchaseDetails();
-    constructor(private spinner: SpinnerVisibilityService,private purchaseService: PurchaseService, private route: ActivatedRoute, private router: Router) { }
+  constructor(private spinner: SpinnerVisibilityService, private purchaseService: PurchaseService, private route: ActivatedRoute, private router: Router) { }
 
   async ngOnInit() {
-   // ;
     this.spinner.show();
-    try { 
-         const purchaseId = this.route.snapshot.queryParams['Id'];
-         await this.purchaseService.getPurchasesSummaryById(purchaseId).subscribe((data: any) => {
-         if (data.status == 200) {
-         this.purchaseData = data.responseData;
-        }   
-    });
+    try {
+      const purchaseId = this.route.snapshot.queryParams['Id'];
+      const data = await this.purchaseService.getPurchasesSummaryById(purchaseId)
+        if (data.status == 200) {
+          this.purchaseData = data.responseData;
+        }
     } catch (error) {
       console.info(error);
     }
@@ -37,29 +44,12 @@ export class PurchasesDetailsComponent implements OnInit {
     }, 3000);
   }
 
-  // getPurchaseDetailsById() {
-    
-  // }
-
   goToSummary() {
     this.router.navigateByUrl('/purchasesSummary');
   }
-  /*  async ngOnInit() {
- 
-     try {
-       const purchaseId = this.route.snapshot.paramMap.get('id');
- 
-       this.model = await this.purchaseService.getPurchase(purchaseId);
- 
-     } catch (error) {
-       console.info(error);
-     }
-   } */
 
   onSelectInvoice() {
-
     this.router.navigate(['/invoice-details/' + this.model.Id]);
-
   }
 
   goToPdf() {
