@@ -15,7 +15,7 @@
 
 
   <div class="d-flex flex-column justify-content-between purchase-details">
-
+    <form [formGroup]="myForm">
     <mat-form-field appearance="none">
       <label class="font-lightBlue-small">{{"Invoice.DATE" | translate}}</label>
       <!-- <input value="purchaseData.datePurchase" matInput name="vatReclaim" readonly /> -->
@@ -49,11 +49,11 @@
       <input class="font-regular-medium" matInput [value]="150" name="vatReclaim" readonly />
     </mat-form-field>
 
-    <mat-form-field appearance="none">
+    <div>
       <label class="font-lightBlue-small">{{"Invoice.IMAGE" | translate}}</label>
       <div><a><img src="../../../assets/icons/icons-invoice.png"></a></div>
-    </mat-form-field>
-
+    </div>
+</form>
     <!-- 
   <mat-form-field appearance="none" *ngIf="isShowInvoiceImg">
    <label class="font-lightBlue-small">Invoice Image</label>

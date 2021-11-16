@@ -14,10 +14,9 @@ export class PdfResultComponent implements OnInit {
   ngOnInit() {
     this.getPdfData();
   }
-  getPdfData() {
+  async getPdfData() {
     const purchaseId = this.route.snapshot.queryParams['Id'];
-    let resData = this.purchaseService.getPurchasesSummaryById(purchaseId).subscribe((data: any) => {
-      ;
+    const data =await this.purchaseService.getPurchasesSummaryById(purchaseId)
       if (data.status == 200) {
         this.purchaseData = data.responseData;
         const { invoiceImage } = this.purchaseData;
@@ -27,7 +26,6 @@ export class PdfResultComponent implements OnInit {
         document.getElementById("pdfDiv").innerHTML=`<object type="text/html" data="${url}#toolbar=0" style="height: 100%;"></object>`;
       }
       console.info(this.purchaseData);
-    });
 
   }
   goToPurchaseDet() {
